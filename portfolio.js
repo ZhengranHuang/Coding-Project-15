@@ -8,4 +8,3 @@ const totalPortfolioValue = calculatePortfolioValue();
 export function getPortfolioAllocation(){
 return asset.map(asset => (asset.price*asset.quantity)/totalPortfolioValue)*100;
 }
-calculatePortfolioValue(1)
